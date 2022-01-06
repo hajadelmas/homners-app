@@ -1,6 +1,6 @@
 [
   {
-    "role": "client",
+    "role": "admin",
     "resource": "User",
     "action": "read:own",
     "attributes": "*"
@@ -13,12 +13,6 @@
   },
   {
     "role": "admin",
-    "resource": "User",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "client",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
@@ -32,12 +26,6 @@
   {
     "role": "admin",
     "resource": "User",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "client",
-    "resource": "User",
     "action": "update:any",
     "attributes": "*"
   },
@@ -50,12 +38,6 @@
   {
     "role": "admin",
     "resource": "User",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "client",
-    "resource": "User",
     "action": "delete:any",
     "attributes": "*"
   },
@@ -67,24 +49,12 @@
   },
   {
     "role": "admin",
-    "resource": "User",
-    "action": "delete:any",
-    "attributes": "*"
-  },
-  {
-    "role": "client",
     "resource": "User",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "User",
-    "action": "read:any",
-    "attributes": "*"
-  },
-  {
-    "role": "admin",
     "resource": "User",
     "action": "read:any",
     "attributes": "*"
@@ -108,7 +78,7 @@
     "attributes": "*"
   },
   {
-    "role": "admin",
+    "role": "client",
     "resource": "MonBien",
     "action": "create:any",
     "attributes": "*"
@@ -122,6 +92,12 @@
   {
     "role": "admin",
     "resource": "MonBien",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
+    "resource": "MonBien",
     "action": "update:any",
     "attributes": "*"
   },
@@ -134,6 +110,12 @@
   {
     "role": "admin",
     "resource": "MonBien",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
+    "resource": "MonBien",
     "action": "delete:any",
     "attributes": "*"
   },
@@ -145,12 +127,24 @@
   },
   {
     "role": "admin",
+    "resource": "MonBien",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
     "resource": "MonBien",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
+    "resource": "MonBien",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "MonBien",
     "action": "read:any",
     "attributes": "*"
@@ -174,7 +168,7 @@
     "attributes": "*"
   },
   {
-    "role": "admin",
+    "role": "client",
     "resource": "ContreRenduVisite",
     "action": "create:any",
     "attributes": "*"
@@ -188,6 +182,12 @@
   {
     "role": "admin",
     "resource": "ContreRenduVisite",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
+    "resource": "ContreRenduVisite",
     "action": "update:any",
     "attributes": "*"
   },
@@ -200,6 +200,12 @@
   {
     "role": "admin",
     "resource": "ContreRenduVisite",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
+    "resource": "ContreRenduVisite",
     "action": "delete:any",
     "attributes": "*"
   },
@@ -211,12 +217,24 @@
   },
   {
     "role": "admin",
+    "resource": "ContreRenduVisite",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
     "resource": "ContreRenduVisite",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
+    "resource": "ContreRenduVisite",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "ContreRenduVisite",
     "action": "read:any",
     "attributes": "*"
@@ -240,7 +258,7 @@
     "attributes": "*"
   },
   {
-    "role": "admin",
+    "role": "client",
     "resource": "ActionsAgent",
     "action": "create:any",
     "attributes": "*"
@@ -254,6 +272,12 @@
   {
     "role": "admin",
     "resource": "ActionsAgent",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
+    "resource": "ActionsAgent",
     "action": "update:any",
     "attributes": "*"
   },
@@ -266,6 +290,12 @@
   {
     "role": "admin",
     "resource": "ActionsAgent",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
+    "resource": "ActionsAgent",
     "action": "delete:any",
     "attributes": "*"
   },
@@ -277,12 +307,24 @@
   },
   {
     "role": "admin",
+    "resource": "ActionsAgent",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "client",
     "resource": "ActionsAgent",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
+    "resource": "ActionsAgent",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
     "resource": "ActionsAgent",
     "action": "read:any",
     "attributes": "*"
